@@ -35,5 +35,27 @@ JOptionPane.showMessageDialog(null, "the difference beetween the two numbers is 
 else {
 JOptionPane.showMessageDialog(null, "the difference beetween the two numbers is" + difference2);
 }
+String city =JOptionPane.showInputDialog(null, "What city do you live in?");
+if (city .equals ("San Diego")) {
+JOptionPane.showMessageDialog(null, "You live in Amaricas finest city.");
+}
+else {
+JOptionPane.showMessageDialog(null, "You should move to San Diego");
+}
+String cars =JOptionPane.showInputDialog(null, "How many cars does you family own?");
+if (cars .equals ("0")) {
+JOptionPane.showMessageDialog(null, "I bet you use public transportation");
+}
+else if (cars .equals ("1")) {
+JOptionPane.showMessageDialog(null, "Tesla Model X P100D 2019");
+}
+else {
+int cars2 =Integer.parseInt(cars);
+int wheels = cars2 * 4;
+JOptionPane.showMessageDialog(null, "Your car has " + wheels + " wheels.");
+}
+String school =JOptionPane.showInputDialog(null, "What school do you go to?");
+JOptionPane.showMessageDialog(null, school + " is a fantastic school!");
+
 }
 }
